@@ -14,7 +14,7 @@ preferences {
 }
 
 def selectDevices() {
-	if(!settings.theme) {
+	if(!settings.Option1) {
     	log.debug "no install"
         dynamicPage(name: "selectDevices", nextPage: "preferences", uninstall: false) {
     		section() {
